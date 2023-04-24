@@ -7,7 +7,7 @@
 }
 
 body {
-  background: rgb(0, 0, 0, 0.7) url(/ITI.jpg);
+  background: rgb(0, 0, 0, 0.7) url(ITI.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
