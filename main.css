@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: rgb(0, 0, 0, 0.7) url(/ITI.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-blend-mode: darken;
+  backdrop-filter: blur(2px);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+}
+
+.countdown-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 3rem;
+  color: rgb(212, 234, 255);
+  text-align: center;
+}
+
+.text {
+  font-size: 4rem;
+  font-weight: 600;
+  color: white;
+  background-color: brown;
+  min-width: 4rem;
+  padding: 5px;
+}
+
+span {
+  color: white;
+}
+
+.countdown-container > div {
+  text-align: center;
+  margin: 0 2rem;
+}
+
+.countdown-container p.due {
+  background-color: rgb(197, 61, 61);
+  padding: 10px;
+  color: rgb(228, 228, 168);
+  font-size: 1.8rem;
+  font-weight: 600;
+}
